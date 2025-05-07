@@ -1,0 +1,5 @@
+# ninja log v5
+0	8911	1745765092770638978	/home/deepb/Deep codes/DLCV/Project/PointMamba/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-39/chamfer_cuda.o	59cc5d5001b1bcd1
+0	24709	1745765108558907171	/home/deepb/Deep codes/DLCV/Project/PointMamba/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-39/chamfer.o	6473ce8d03791318
+4	9378	1746369073486545510	/home/deepb/Deep_codes/DLCV/Project/PointMamba/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-39/chamfer_cuda.o	8ffbacc10bae4a97
+3	24441	1746369088538799804	/home/deepb/Deep_codes/DLCV/Project/PointMamba/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-39/chamfer.o	2e823c16282b7601

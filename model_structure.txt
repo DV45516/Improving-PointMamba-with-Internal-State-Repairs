@@ -1,0 +1,337 @@
+2025-05-05 14:27:46,772 - finetune_modelnet - INFO - >> Trainable Parameters:
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |Name                                                   |Dtype            |Shape            |#Params   |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.OrderScale_gamma_1                        |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.OrderScale_beta_1                         |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.OrderScale_gamma_2                        |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.OrderScale_beta_2                         |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.first_conv.0.weight               |torch.float32    |(128, 3, 1)      |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.first_conv.0.bias                 |torch.float32    |(128,)           |128       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.first_conv.1.weight               |torch.float32    |(128,)           |128       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.first_conv.1.bias                 |torch.float32    |(128,)           |128       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.first_conv.3.weight               |torch.float32    |(256, 128, 1)    |32768     |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.first_conv.3.bias                 |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.second_conv.0.weight              |torch.float32    |(512, 512, 1)    |262144    |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.second_conv.0.bias                |torch.float32    |(512,)           |512       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.second_conv.1.weight              |torch.float32    |(512,)           |512       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.second_conv.1.bias                |torch.float32    |(512,)           |512       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.second_conv.3.weight              |torch.float32    |(384, 512, 1)    |196608    |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.encoder.second_conv.3.bias                |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.pos_embed.0.weight                        |torch.float32    |(128, 3)         |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.pos_embed.0.bias                          |torch.float32    |(128,)           |128       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.pos_embed.2.weight                        |torch.float32    |(384, 128)       |49152     |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.pos_embed.2.bias                          |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.0.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,773 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.1.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.2.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.3.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,774 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.4.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.4.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.4.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.5.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.6.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,775 - finetune_modelnet - INFO - |module.model.blocks.layers.7.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.8.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.A_log               |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.D                   |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.in_proj.weight      |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.conv1d.weight       |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.conv1d.bias         |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.x_proj.weight       |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.dt_proj.weight      |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.dt_proj.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.mixer.out_proj.weight     |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.norm.weight               |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.9.norm.bias                 |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.A_log              |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.D                  |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.in_proj.weight     |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.conv1d.weight      |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.conv1d.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.x_proj.weight      |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.dt_proj.weight     |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.dt_proj.bias       |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.mixer.out_proj.weight    |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.norm.weight              |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.10.norm.bias                |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.A_log              |torch.float32    |(768, 16)        |12288     |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.D                  |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.in_proj.weight     |torch.float32    |(1536, 384)      |589824    |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.conv1d.weight      |torch.float32    |(768, 1, 4)      |3072      |
+2025-05-05 14:27:46,776 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.conv1d.bias        |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.x_proj.weight      |torch.float32    |(56, 768)        |43008     |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.dt_proj.weight     |torch.float32    |(768, 24)        |18432     |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.dt_proj.bias       |torch.float32    |(768,)           |768       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.mixer.out_proj.weight    |torch.float32    |(384, 768)       |294912    |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.norm.weight              |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.layers.11.norm.bias                |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.norm_f.weight                      |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.blocks.norm_f.bias                        |torch.float32    |(384,)           |384       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.0.weight                |torch.float32    |(256, 384)       |98304     |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.0.bias                  |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.1.weight                |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.1.bias                  |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.4.weight                |torch.float32    |(256, 256)       |65536     |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.4.bias                  |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.5.weight                |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.5.bias                  |torch.float32    |(256,)           |256       |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.8.weight                |torch.float32    |(40, 256)        |10240     |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - |module.model.cls_head_finetune.8.bias                  |torch.float32    |(40,)            |40        |
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - --------------------------------------------------------------------------------------------------------
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - >> # TrainableParams:              12.30   M  12297.77     K
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - >> # NonTrainableParams:           0.00    M
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - >> # TotalParams:                  12.30   M
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - >> # TuningRatio:                  100.00  %
+2025-05-05 14:27:46,777 - finetune_modelnet - INFO - 

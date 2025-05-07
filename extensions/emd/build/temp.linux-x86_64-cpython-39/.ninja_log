@@ -1,0 +1,5 @@
+# ninja log v5
+1	10799	1745765155537705336	/home/deepb/Deep codes/DLCV/Project/PointMamba/extensions/emd/build/temp.linux-x86_64-cpython-39/cuda/emd_kernel.o	86776091b7a89d8d
+1	12337	1745765157074731454	/home/deepb/Deep codes/DLCV/Project/PointMamba/extensions/emd/build/temp.linux-x86_64-cpython-39/cuda/emd.o	be365a5ae3f9c5e5
+3	10835	1746369203082733762	/home/deepb/Deep_codes/DLCV/Project/PointMamba/extensions/emd/build/temp.linux-x86_64-cpython-39/cuda/emd_kernel.o	4b141cff4172c90d
+3	12034	1746369204281753997	/home/deepb/Deep_codes/DLCV/Project/PointMamba/extensions/emd/build/temp.linux-x86_64-cpython-39/cuda/emd.o	72136504bcf4d30a
